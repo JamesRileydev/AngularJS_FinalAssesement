@@ -1,0 +1,17 @@
+<div class="profile-view">
+  <div class="profile-header">
+    <h1>Profile</h1>
+    <h2>Welcome, {{$ctrl.userDetails.name}}</h2>
+  </div>
+  <div class="profile-info">
+    <div class="profile-image">
+      <img ng-src="{{$ctrl.userDetails.img}}" alt="User Image">
+    </div>
+    <div class="profile-text">
+      <p>Email: {{$ctrl.userDetails.email}}</p>
+      <p>Phone Number: {{$ctrl.userDetails.phone}}</p>
+      <p>Location: {{$ctrl.userDetails.location}}</p>
+    </div>
+  </div>
+  <a href="#!/">Edit Profile</a>
+</div>

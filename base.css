@@ -1,0 +1,14 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: #63cec2;
+  color: #F7F8F9;
+
+}
+
+a:hover {
+  color: #63cec2;
+}
+
+a {
+  color: #F7F8F9;
+}
