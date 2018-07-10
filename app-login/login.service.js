@@ -1,5 +1,3 @@
-//
-
 angular.module("finalAssessment").service("LoginService", ["$location", "$q", function($location, $q) {
 
   // THIS METHOD RETURNS A PROMISE! JUST AS IF YOU WERE TALKING TO A SERVER.
@@ -39,8 +37,8 @@ angular.module("finalAssessment").service("LoginService", ["$location", "$q", fu
       phone: '222-444-6666'
     },
     {
-      username: 'grantchirpus',
-      password: 'greatPassword',
+      username: '',
+      password: '',
       name: 'Grant Chirpus',
       email: 'grantChirpus@gmail.com',
       img: '/images/grantchirpus.png',
